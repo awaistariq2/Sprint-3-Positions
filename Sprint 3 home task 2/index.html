@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Responsive Registration Form</h2>
+
+        <form>
+            <div class="input">
+                <input type="email" placeholder="Email" >
+            </div>
+
+            <div class="input">
+                <input type="password" placeholder="Password" >
+            </div>
+            <div class="input">
+                
+                <input type="password" placeholder="Re-type Password">
+            </div>
+
+            <div class="namefields">
+                <div class="input">
+                   
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="input">
+                  
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="gender">
+                <label><input type="radio" name="gender" required> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+            </div>
+            <select required>
+                <option value="">Select a country</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+            </select>
+            <label class="checkbox">
+                <input type="checkbox" > I agree with terms and conditions
+            </label>
+            <label class="checkbox">
+                <input type="checkbox"> I want to receive the newsletter
+            </label>
+
+            <button type="submit" class="submit">Register</button>
+        </form>
+
+        <p class="footer">DEVELOPED BY <span>SHAMUEL AHMAD</span></p>
+    </div>
+
+</body>
+</html>
